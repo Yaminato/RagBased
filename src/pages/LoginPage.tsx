@@ -2,12 +2,12 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import {
-  GraduationCapIcon,
   UserIcon,
   LockIcon,
   AlertCircleIcon } from
 'lucide-react';
 import { PageTransition } from '../components/PageTransition';
+import { PSULogo } from '../components/PSULogo';
 import { useAuth } from '../data/authContext';
 export function LoginPage() {
   const [identifier, setIdentifier] = useState('');
@@ -66,8 +66,8 @@ export function LoginPage() {
           <div className="bg-white rounded-2xl shadow-2xl overflow-hidden">
             {/* Card Header */}
             <div className="bg-psu-maroon px-8 py-8 text-center">
-              <div className="w-16 h-16 rounded-full bg-white/10 flex items-center justify-center border-2 border-psu-gold/60 mx-auto mb-4">
-                <GraduationCapIcon className="w-8 h-8 text-psu-gold" />
+              <div className="flex justify-center mb-4">
+                <PSULogo size="lg" />
               </div>
               <h1 className="text-2xl font-display font-bold text-white">
                 Academia Sync

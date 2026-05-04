@@ -1,13 +1,12 @@
-import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import {
-  GraduationCapIcon,
   MailIcon,
   MapPinIcon,
   PhoneIcon,
   FacebookIcon,
   GlobeIcon } from
 'lucide-react';
+import { PSULogo } from './PSULogo';
 const quickLinks = [
 {
   label: 'Home',
@@ -40,9 +39,7 @@ export function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center border-2 border-psu-gold/60">
-                <GraduationCapIcon className="w-5 h-5 text-psu-gold" />
-              </div>
+              <PSULogo size="md" />
               <div>
                 <div className="font-display text-lg font-bold">
                   Academia Sync

@@ -6,7 +6,6 @@ import {
   SearchIcon,
   CpuIcon,
   LayersIcon,
-  GraduationCapIcon,
   MapPinIcon,
   UsersIcon,
   CodeIcon,
@@ -15,6 +14,7 @@ import {
   GitBranchIcon } from
 'lucide-react';
 import { PageTransition } from '../components/PageTransition';
+import { PSULogo } from '../components/PSULogo';
 const howItWorks = [
 {
   step: 1,
@@ -337,9 +337,7 @@ export function AboutPage() {
                 }}>
                 
                 <div className="flex items-center gap-3 mb-5">
-                  <div className="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center border-2 border-psu-gold/50">
-                    <GraduationCapIcon className="w-6 h-6 text-psu-gold" />
-                  </div>
+                  <PSULogo size="lg" className="border-2 border-psu-gold/50" />
                   <div>
                     <h2 className="text-2xl font-display font-bold text-white">
                       Academia Sync
@@ -386,7 +384,7 @@ export function AboutPage() {
                 
                 {[
                 {
-                  icon: GraduationCapIcon,
+                  icon: BrainCircuitIcon,
                   label: '5 Departments',
                   sub: 'Across disciplines'
                 },

@@ -4,7 +4,6 @@ import {
   SearchIcon,
   MenuIcon,
   XIcon,
-  GraduationCapIcon,
   LogInIcon,
   LogOutIcon,
   LayoutDashboardIcon,
@@ -15,6 +14,7 @@ import {
 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useAuth } from '../data/authContext';
+import { PSULogo } from './PSULogo';
 const baseNavLinks = [
 {
   label: 'Home',
@@ -122,9 +122,7 @@ export function Header() {
           <div className="flex items-center justify-between h-16">
             {/* Logo */}
             <Link to="/" className="flex items-center gap-3 group">
-              <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center border-2 border-psu-gold/60">
-                <GraduationCapIcon className="w-5 h-5 text-psu-gold" />
-              </div>
+              <PSULogo size="md" />
               <div className="hidden sm:block">
                 <div className="text-white font-display text-lg font-bold leading-tight">
                   Academia Sync

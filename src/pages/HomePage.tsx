@@ -1,10 +1,8 @@
-import React, { Component } from 'react'
 import { motion } from 'framer-motion'
 import {
   SearchIcon,
   BrainCircuitIcon,
   FileSearchIcon,
-  SparklesIcon,
   BookOpenIcon,
   ArrowRightIcon,
 } from 'lucide-react'
@@ -69,7 +67,7 @@ export function HomePage() {
                 }}
               >
                 <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-psu-maroon/20 border border-psu-maroon/30 mb-6">
-                  <SparklesIcon className="w-4 h-4 text-psu-gold" />
+                  <BrainCircuitIcon className="w-4 h-4 text-psu-gold" />
                   <span className="text-sm font-sans font-medium text-psu-gold">
                     AI-Powered Semantic Search
                   </span>
@@ -150,7 +148,7 @@ export function HomePage() {
                 }}
                 className="flex flex-wrap justify-center gap-2 mt-6"
               >
-                {filterChips.map((chip, i) => (
+                {filterChips.map((chip) => (
                   <Link
                     key={chip}
                     to={
