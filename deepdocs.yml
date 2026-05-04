@@ -1,0 +1,4 @@
+target:
+  - url: "https://github.com/Yaminato/RagBased.git/"
+  reinit: "a-random-string"
+ignore: []
