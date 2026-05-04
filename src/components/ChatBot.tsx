@@ -25,7 +25,7 @@ const botResponses: Record<string, string> = {
   'how do i search':
   'You can search for theses using the Search page. Just type your topic, keywords, or even a natural language question in the search bar. Our RAG-based system understands the meaning behind your query, not just exact keyword matches!',
   departments:
-  'We have theses from 5 departments:\n• Computer Science\n• Information Technology\n• Education\n• Business Administration\n• Agriculture\n\nYou can filter by department on the Search page.',
+  'We have theses from 2 departments:\n• Information Technology (BSIT)\n• Education (BSED)\n\nYou can filter by department on the Search page.',
   'semantic search':
   'Our system uses Retrieval-Augmented Generation (RAG) — an AI technique that converts your query into a mathematical representation (embedding) and compares it against all thesis embeddings. This means searching for "AI in farming" will also find theses about "crop disease detection using neural networks" even without matching keywords!',
   'ai-related':

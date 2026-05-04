@@ -22,11 +22,8 @@ const quickLinks = [
 }];
 
 const departments = [
-'Computer Science',
 'Information Technology',
-'Education',
-'Business Administration',
-'Agriculture'];
+'Education'];
 
 export function Footer() {
   return (

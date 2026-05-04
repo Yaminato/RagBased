@@ -27,7 +27,7 @@ export const mockUsers: AppUser[] = [
   password: 'student123',
   role: 'student',
   studentId: '2024-00112',
-  department: 'Computer Science',
+  department: 'Information Technology',
   status: 'active',
   lastActive: '2026-04-15T09:30:00',
   attendance: [
@@ -224,7 +224,7 @@ export const mockUsers: AppUser[] = [
   password: 'student123',
   role: 'student',
   studentId: '2024-00587',
-  department: 'Business Administration',
+  department: 'Education',
   status: 'inactive',
   lastActive: '2026-04-10T11:00:00',
   attendance: [
@@ -375,8 +375,5 @@ export const searchTopics = [
 
 
 export const departmentUsage = [
-{ department: 'Computer Science', visits: 156, theses: 42 },
-{ department: 'Information Technology', visits: 134, theses: 38 },
-{ department: 'Education', visits: 98, theses: 31 },
-{ department: 'Business Administration', visits: 87, theses: 27 },
-{ department: 'Agriculture', visits: 72, theses: 24 }];
+  { department: 'Information Technology', visits: 272, theses: 154 },
+  { department: 'Education', visits: 198, theses: 124 }];

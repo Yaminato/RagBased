@@ -11,33 +11,11 @@ export interface Thesis {
 }
 
 export const departments = [
-'Computer Science',
 'Information Technology',
-'Education',
-'Business Administration',
-'Agriculture'] as
+'Education'] as
 const;
 
 export const mockTheses: Thesis[] = [
-{
-  id: 'thesis-001',
-  title:
-  'Development of an AI-Powered Crop Disease Detection System Using Convolutional Neural Networks',
-  authors: ['Maria Santos', 'Juan Dela Cruz'],
-  department: 'Computer Science',
-  year: 2024,
-  adviser: 'Dr. Roberto Manalo',
-  abstract:
-  'This study presents the development of an AI-powered crop disease detection system utilizing Convolutional Neural Networks (CNNs) to identify and classify common diseases affecting rice and vegetable crops in the province of Pampanga. The system was trained on a dataset of over 15,000 labeled images collected from local farms in Lubao and surrounding municipalities.\n\nThe proposed model achieved an accuracy rate of 94.7% in identifying eight distinct crop diseases, outperforming traditional image processing methods by a significant margin. The system was deployed as a mobile application, enabling farmers to capture images of affected crops and receive instant diagnostic results along with recommended treatment protocols.\n\nField testing conducted across 12 farms demonstrated that early detection through the system reduced crop losses by an estimated 35%, contributing to improved agricultural productivity in the region. The study recommends further expansion of the training dataset and integration with local agricultural extension services.',
-  keywords: [
-  'artificial intelligence',
-  'crop disease detection',
-  'convolutional neural networks',
-  'agriculture technology',
-  'mobile application'],
-
-  relevanceScore: 97
-},
 {
   id: 'thesis-002',
   title:
@@ -58,25 +36,6 @@ export const mockTheses: Thesis[] = [
   relevanceScore: 89
 },
 {
-  id: 'thesis-003',
-  title:
-  'Feasibility Study of a Solar-Powered Irrigation System for Small-Scale Farmers in Pampanga',
-  authors: ['Ricardo Aquino', 'Elena Bautista'],
-  department: 'Agriculture',
-  year: 2023,
-  adviser: 'Prof. Fernando Lacson',
-  abstract:
-  "This feasibility study evaluates the viability of implementing solar-powered irrigation systems for small-scale rice farmers in the municipality of Lubao, Pampanga. The research assessed technical, economic, and environmental factors through a mixed-methods approach involving surveys of 150 farmers, cost-benefit analysis, and pilot installation at three demonstration sites.\n\nThe economic analysis revealed that the initial investment of approximately PHP 85,000 per hectare could be recovered within 3.2 years through reduced fuel costs and improved crop yields. The pilot installations demonstrated a 28% reduction in water consumption compared to conventional flood irrigation methods, while maintaining comparable yield levels.\n\nThe study concludes that solar-powered irrigation represents a sustainable and economically viable alternative for small-scale farmers, particularly given the increasing costs of fossil fuels and the region's abundant solar resources averaging 5.2 peak sun hours daily.",
-  keywords: [
-  'solar energy',
-  'irrigation system',
-  'sustainable agriculture',
-  'feasibility study',
-  'renewable energy'],
-
-  relevanceScore: 82
-},
-{
   id: 'thesis-004',
   title: 'Web-Based Inventory Management System for Local SMEs in Lubao',
   authors: ['Jerome Pineda', 'Kristine Manansala'],
@@ -93,63 +52,6 @@ export const mockTheses: Thesis[] = [
   'e-commerce'],
 
   relevanceScore: 75
-},
-{
-  id: 'thesis-005',
-  title:
-  'Financial Literacy and Entrepreneurial Intentions Among Business Administration Students',
-  authors: ['Samantha Ocampo', 'David Lingad', 'Rachel Torres'],
-  department: 'Business Administration',
-  year: 2023,
-  adviser: 'Dr. Amelia Cunanan',
-  abstract:
-  'This study examines the relationship between financial literacy levels and entrepreneurial intentions among Business Administration students at Pampanga State University - Lubao Campus. A descriptive-correlational research design was employed, surveying 320 students across all year levels using standardized financial literacy assessments and entrepreneurial intention scales.\n\nFindings indicate a moderate positive correlation (r = 0.58, p < 0.01) between financial literacy scores and entrepreneurial intentions. Students who participated in financial literacy workshops and business plan competitions demonstrated significantly higher entrepreneurial self-efficacy scores. Gender analysis revealed no significant differences in financial literacy levels, though male students showed marginally higher risk-taking propensity.\n\nThe study recommends the integration of practical financial management modules into the Business Administration curriculum and the establishment of a student business incubator to nurture entrepreneurial talent within the campus community.',
-  keywords: [
-  'financial literacy',
-  'entrepreneurship',
-  'business education',
-  'student development',
-  'self-efficacy'],
-
-  relevanceScore: 68
-},
-{
-  id: 'thesis-006',
-  title:
-  'Sentiment Analysis of Student Feedback Using Natural Language Processing for Course Evaluation',
-  authors: ['Carlo Mendoza', 'Alyssa Garcia'],
-  department: 'Computer Science',
-  year: 2023,
-  adviser: 'Dr. Roberto Manalo',
-  abstract:
-  'This research presents a sentiment analysis system designed to process and analyze student feedback from course evaluations at Pampanga State University. The system employs Natural Language Processing (NLP) techniques, specifically utilizing a fine-tuned BERT model adapted for Filipino-English code-switching text commonly found in student responses.\n\nThe model was trained on a corpus of 8,500 anonymized student evaluation responses collected over three academic years. The system achieved an F1-score of 0.87 for sentiment classification across three categories: positive, negative, and neutral. The analysis revealed that teaching methodology and faculty accessibility were the most frequently discussed topics in student feedback.\n\nThe automated system reduces the manual processing time for course evaluations by approximately 85%, enabling administrators to identify areas for improvement more efficiently. The study contributes to the growing body of research on NLP applications in Philippine educational contexts.',
-  keywords: [
-  'sentiment analysis',
-  'natural language processing',
-  'BERT',
-  'course evaluation',
-  'text mining'],
-
-  relevanceScore: 91
-},
-{
-  id: 'thesis-007',
-  title:
-  'Assessment of Water Quality in Pampanga River Basin: Implications for Community Health',
-  authors: ['Miguel Flores', 'Isabelle Navarro', 'Ryan Guevarra'],
-  department: 'Agriculture',
-  year: 2024,
-  adviser: 'Dr. Teresa Yumang',
-  abstract:
-  'This study conducts a comprehensive assessment of water quality parameters in selected tributaries of the Pampanga River Basin, with particular focus on waterways adjacent to agricultural and residential areas in Lubao. Water samples were collected from 18 monitoring stations over a 12-month period and analyzed for physicochemical and microbiological parameters.\n\nResults indicate that 7 out of 18 stations exceeded the DENR water quality guidelines for dissolved oxygen, biochemical oxygen demand, and coliform bacteria counts, particularly during the wet season. Agricultural runoff containing pesticide residues was identified as the primary contributor to water quality degradation in upstream stations, while domestic wastewater discharge was the dominant factor in downstream urban areas.\n\nThe study provides baseline data for environmental management planning and recommends the implementation of constructed wetlands and community-based water quality monitoring programs to address the identified contamination issues.',
-  keywords: [
-  'water quality',
-  'environmental assessment',
-  'Pampanga River',
-  'community health',
-  'pollution monitoring'],
-
-  relevanceScore: 73
 },
 {
   id: 'thesis-008',
@@ -188,44 +90,6 @@ export const mockTheses: Thesis[] = [
   'experimental research'],
 
   relevanceScore: 85
-},
-{
-  id: 'thesis-010',
-  title: 'Blockchain-Based Document Verification System for Academic Records',
-  authors: ['Francis Yap', 'Denise Cunanan', 'Leo Pangilinan'],
-  department: 'Computer Science',
-  year: 2024,
-  adviser: 'Dr. Roberto Manalo',
-  abstract:
-  'This study proposes and implements a blockchain-based document verification system for securing and authenticating academic records at Pampanga State University. The system utilizes Ethereum smart contracts to create immutable records of academic credentials, enabling instant verification by employers and other educational institutions without requiring direct contact with the university registrar.\n\nThe prototype system was developed using Solidity for smart contract development, React for the front-end interface, and IPFS for decentralized document storage. Performance testing demonstrated that document verification could be completed in under 3 seconds, compared to the traditional process that typically requires 3-5 business days.\n\nSecurity analysis confirmed that the system is resistant to common attack vectors including document forgery, unauthorized modifications, and replay attacks. The estimated operational cost of PHP 15 per verification transaction makes the system economically viable for institutional deployment. The study contributes to the emerging field of blockchain applications in Philippine higher education.',
-  keywords: [
-  'blockchain',
-  'document verification',
-  'academic records',
-  'smart contracts',
-  'Ethereum',
-  'decentralized systems'],
-
-  relevanceScore: 94
-},
-{
-  id: 'thesis-011',
-  title:
-  'Market Analysis and Business Model Development for Organic Farming Cooperatives in Pampanga',
-  authors: ['Grace Tolentino', 'Martin Guinto'],
-  department: 'Business Administration',
-  year: 2024,
-  adviser: 'Dr. Amelia Cunanan',
-  abstract:
-  "This study conducts a comprehensive market analysis for organic farming products in Pampanga province and develops a sustainable business model for agricultural cooperatives transitioning to organic farming practices. The research employed a mixed-methods approach combining consumer surveys (n=500), farmer interviews (n=45), and financial modeling.\n\nMarket analysis revealed a growing demand for organic produce among middle-income consumers in Central Luzon, with 67% of respondents willing to pay a 20-30% premium for certified organic products. The proposed cooperative business model incorporates shared certification costs, collective marketing strategies, and direct-to-consumer distribution channels through farmers' markets and online platforms.\n\nFinancial projections indicate that cooperatives adopting the proposed model could achieve profitability within 18 months, with an estimated ROI of 45% by the third year of operation. The study provides actionable recommendations for cooperative formation, organic certification processes, and market entry strategies.",
-  keywords: [
-  'organic farming',
-  'market analysis',
-  'business model',
-  'cooperative',
-  'sustainable agriculture'],
-
-  relevanceScore: 71
 },
 {
   id: 'thesis-012',

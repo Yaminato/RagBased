@@ -92,15 +92,15 @@ const techStack = [
 const team = [
 {
   name: 'Research Team',
-  role: 'Academia Sync — Computer Science Department'
+  role: 'Academia Sync — Research & Instruction'
 },
 {
   name: 'Faculty Adviser',
-  role: 'Department of Computer Science'
+  role: 'Pampanga State University'
 },
 {
   name: 'Development Team',
-  role: 'BS Computer Science Students'
+  role: 'Student Development Team'
 }];
 
 export function AboutPage() {
@@ -385,7 +385,7 @@ export function AboutPage() {
                 {[
                 {
                   icon: BrainCircuitIcon,
-                  label: '5 Departments',
+                  label: '2 Departments',
                   sub: 'Across disciplines'
                 },
                 {
