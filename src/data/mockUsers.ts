@@ -22,7 +22,7 @@ export interface AppUser {
 export const mockUsers: AppUser[] = [
 {
   id: 'student-001',
-  name: 'Angelo Reyes',
+  name: 'Lourdy Jay Suing',
   email: 'student1@psu.edu.ph',
   password: 'student123',
   role: 'student',
@@ -96,7 +96,7 @@ export const mockUsers: AppUser[] = [
 },
 {
   id: 'student-002',
-  name: 'Patricia Gomez',
+  name: 'Shiela Mendoza',
   email: 'student2@psu.edu.ph',
   password: 'student123',
   role: 'student',
@@ -158,7 +158,7 @@ export const mockUsers: AppUser[] = [
 },
 {
   id: 'student-003',
-  name: 'Mark Villanueva',
+  name: 'John Benedict',
   email: 'student3@psu.edu.ph',
   password: 'student123',
   role: 'student',
@@ -292,7 +292,7 @@ export const mockUsers: AppUser[] = [
 },
 {
   id: 'librarian-001',
-  name: 'Maria Santos',
+  name: 'Krizza Anne Bautista',
   email: 'librarian@psu.edu.ph',
   password: 'librarian123',
   role: 'librarian',
@@ -301,7 +301,7 @@ export const mockUsers: AppUser[] = [
 },
 {
   id: 'admin-001',
-  name: 'Dr. Roberto Manalo',
+  name: 'Dr. Leyrie Mallo',
   email: 'admin@psu.edu.ph',
   password: 'admin123',
   role: 'admin',
@@ -313,7 +313,7 @@ export const mockUsers: AppUser[] = [
 export const systemLogs = [
 {
   timestamp: '2026-04-15 09:30',
-  event: 'Student Angelo Reyes logged in',
+  event: 'Student Lourdy Jay Suing logged in',
   type: 'login' as const
 },
 {
@@ -323,7 +323,7 @@ export const systemLogs = [
 },
 {
   timestamp: '2026-04-15 08:45',
-  event: 'Student Patricia Gomez logged in',
+  event: 'Student Shiela Mendoza logged in',
   type: 'login' as const
 },
 {
@@ -333,17 +333,17 @@ export const systemLogs = [
 },
 {
   timestamp: '2026-04-15 08:00',
-  event: 'Admin Dr. Roberto Manalo logged in',
+  event: 'Admin Dr. Leyrie Mallo logged in',
   type: 'login' as const
 },
 {
   timestamp: '2026-04-15 07:55',
-  event: 'Librarian Maria Santos logged in',
+  event: 'Librarian Krizza Anne Bautista logged in',
   type: 'login' as const
 },
 {
   timestamp: '2026-04-14 16:30',
-  event: 'Student Mark Villanueva checked out',
+  event: 'Student Lourdy Jay Suing checked out',
   type: 'attendance' as const
 },
 {
@@ -353,12 +353,12 @@ export const systemLogs = [
 },
 {
   timestamp: '2026-04-14 14:00',
-  event: 'Student Mark Villanueva logged in',
+  event: 'Student John Benedict logged in',
   type: 'login' as const
 },
 {
   timestamp: '2026-04-14 12:30',
-  event: 'Student Angelo Reyes checked out',
+  event: 'Student Lourdy Jay Suing checked out',
   type: 'attendance' as const
 }];
 

@@ -175,8 +175,8 @@ export function HomePage() {
 
           <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-              <StatsCounter value={1250} suffix="+" label="Total Theses" />
-              <StatsCounter value={5} label="Departments" />
+              <StatsCounter value={5} suffix="+" label="Total Theses" />
+              <StatsCounter value={2} label="Departments" />
               <StatsCounter value={15} suffix="+" label="Years Covered" />
               <StatsCounter value={95} suffix="%" label="Search Accuracy" />
             </div>

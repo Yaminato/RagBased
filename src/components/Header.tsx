@@ -31,8 +31,7 @@ const baseNavLinks = [
 
 const utilityLinks = [
 'Data Privacy Notice',
-'Transparency Seal',
-"Citizen's Charter"];
+'Transparency Seal'];
 
 const roleBadgeStyles: Record<string, string> = {
   student: 'bg-blue-500',
